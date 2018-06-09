@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container>
-  <Name>Burstcoin Wallet</Name>
+<Container version="1">
+  <Name>BurstcoinWallet</Name>
   <Overview>Burstcoin Reference Software</Overview>
+  <Description>Burstcoin Reference Software</Description>
   <Registry>https://registry.hub.docker.com/u/burstcoin/core/</Registry>
   <Repository>burstcoin/core</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment/>
+  <Environment></Environment>
+  <Network>bridge</Network>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -29,9 +31,9 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Version>1.0</Version>
-  <WebUI>http://[iP]:[PORT:8125]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8125]/index.html</WebUI>
   <Icon>https://raw.githubusercontent.com/harry1453/burstcoin-docker-templates/master/burstcoin/images/burstcoin.png</Icon>
   <ExtraParams></ExtraParams>
-  <TemplateURL>
+  <Banner></Banner>
+  <TemplateURL>https://github.com/harry1453/burstcoin-docker-templates</TemplateURL>
 </Container>
