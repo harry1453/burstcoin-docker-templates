@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Burstcoin Wallet</Name>
+  <Overview>Burstcoin Reference Software</Overview>
+  <Registry>https://registry.hub.docker.com/u/burstcoin/core/</Registry>
+  <Repository>burstcoin/core</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8123</HostPort>
+        <ContainerPort>8123</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8125</HostPort>
+        <ContainerPort>8125</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/burst_db</HostDir>
+      <ContainerDir>/etc/burstcoin/burst_db</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Version>1.0</Version>
+  <WebUI>http://[iP]:[PORT:8125]/</WebUI>
+  <Icon>https://raw.githubusercontent.com/harry1453/burstcoin-docker-templates/master/burstcoin/images/burstcoin.png</Icon>
+  <ExtraParams></ExtraParams>
+  <TemplateURL>
+</Container>
