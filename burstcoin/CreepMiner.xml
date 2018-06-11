@@ -40,7 +40,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/creepminer_config</HostDir>
+      <HostDir>/mnt/cache/appdata/creepminerconfig</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
