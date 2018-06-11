@@ -42,14 +42,14 @@ chmod +x burst.sh
 
 6. Close the console and go to the config directory you specified earlier
 
-7. Open `mining.conf` using a text editor. Change the `miningInfo` and `submission` URLs to those of your pool. Make sure to include `http://`, so for example for the PoCC 0-100 Pool the address would be: `http://0-100-pool.burst.cryptoguru.org:8124`. You can change the `wallet` URL if you so wish.
+7. Open `mining.conf` using a text editor. Change the `miningInfo` and `submission` URLs to those of your pool. Make sure to include `http://`, so for example for the PoCC 0-100 Pool the address would be: `http://0-100-pool.burst.cryptoguru.org:8124`. You can change the `wallet` URL if you so wish, but it will work fine with the default CreepMiner wallet.
 
 8. Change the `user` and `pass` under `credentials` to those of your choice, for example:
 ```XML
 "credentials" : {
-    "pass" : "harry",
-    "user" : "password"
-}
+    "pass" : "password",
+    "user" : "harry"
+},
 ```
 
 9. Save and close `mining.conf`. Go back to the unRAID Docker tab, click on the container icon, and click restart.
