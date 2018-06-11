@@ -40,22 +40,22 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/creepminerconfig</HostDir>
+      <HostDir>/mnt/user/appdata/creepminerconfig</HostDir>
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/plot1/</HostDir>
+      <HostDir>/mnt/user/appdata/plot1/</HostDir>
       <ContainerDir>/plot/01</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/plot2/</HostDir>
+      <HostDir>/mnt/user/appdata/plot2/</HostDir>
       <ContainerDir>/plot/02</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/cache/appdata/plot3/</HostDir>
+      <HostDir>/mnt/user/appdata/plot3/</HostDir>
       <ContainerDir>/plot/03</ContainerDir>
       <Mode>rw</Mode>
     </Volume>

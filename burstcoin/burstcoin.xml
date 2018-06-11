@@ -26,7 +26,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/burst_db</HostDir>
+      <HostDir>/mnt/user/appdata/burst_db</HostDir>
       <ContainerDir>/etc/burstcoin/burst_db</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
